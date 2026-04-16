@@ -1,0 +1,27 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.btn {
+  border: 2px solid #ff0b37;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.item {
+  list-style-type: none;
+  margin: 5px;
+}

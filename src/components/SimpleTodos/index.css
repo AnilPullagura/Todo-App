@@ -1,0 +1,20 @@
+/* Write your CSS here */
+
+.back {
+  height: 100vh;
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.box {
+  background-color: white;
+  border-radius: 10px;
+
+  padding: 10px;
+}
+.head {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #ff8542;
+}
