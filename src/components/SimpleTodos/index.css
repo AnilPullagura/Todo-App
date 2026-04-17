@@ -1,7 +1,7 @@
 /* Write your CSS here */
 
 .back {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ffc2a0;
   display: flex;
   justify-content: center;
@@ -17,4 +17,28 @@
   text-align: center;
   font-family: 'Roboto';
   color: #ff8542;
+}
+.todo-input {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.todo-input input {
+  outline: none;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.todo-input button {
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: skyblue;
+  outline: none;
+  border: none;
+  font-size: 17px;
 }
